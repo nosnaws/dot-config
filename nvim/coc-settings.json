@@ -1,0 +1,27 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "go"
+  ],
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx"
+  ],
+  "coc.preferences.diagnostic.virtualText": true,
+  "golang": {
+    "command": "gopls",
+    "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+    "filetypes": ["go"],
+    "initializationOptions": {
+      "usePlaceholders": true
+    }
+  }
+}
