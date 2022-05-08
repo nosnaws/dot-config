@@ -236,6 +236,13 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 " " Add `:OR` command for organize imports of the current buffer.
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
+" SPELLCHECK on certain files
+autocmd FileType gitcommit setlocal spell nonumber
+autocmd FileType fugitive setlocal spell nonumber
+autocmd FileType markdown setlocal spell nonumber
+autocmd FileType text setlocal spell nonumber
+
+
 
 " pull in LUA configs
 lua require('config')

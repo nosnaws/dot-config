@@ -17,7 +17,7 @@
   ],
   "coc.preferences.diagnostic.virtualText": true,
   "golang": {
-    "command": "gopls",
+    "command": "coc-go",
     "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
     "filetypes": ["go"],
     "initializationOptions": {
